@@ -1,0 +1,44 @@
+# Python virtual environment
+myvenv/
+venv/
+env/
+.venv/
+
+# Model weights (large files)
+*.pt
+*.pth
+*.onnx
+
+# Video files
+*.mp4
+*.avi
+*.mov
+
+# Image files (optional - remove if you want to include them)
+*.jpg
+*.jpeg
+*.png
+
+# Zip files
+*.zip
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Training results (you might want to keep args.yaml and results.csv)
+# Remove specific patterns if you want to include them
+*/weights/*.pt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
