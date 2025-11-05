@@ -5,10 +5,6 @@ env/
 .venv/
 
 
-# Video files
-*.mp4
-*.avi
-*.mov
 
 
 # Zip files
